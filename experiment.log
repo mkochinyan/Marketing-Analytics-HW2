@@ -1,0 +1,19 @@
+INFO : Conducting Epsilon-Greedy Experiment
+INFO : --- EpsilonGreedy Reporting ---
+DEBUG : Bandit with true Win rate 1.000: Pulled 2 times Estimated Reward is 0.8746, Estimated Regret is 0.1254
+DEBUG : Bandit with true Win rate 2.000: Pulled 1 times Estimated Reward is 1.8864, Estimated Regret is 0.1136
+DEBUG : Bandit with true Win rate 3.000: Pulled 2 times Estimated Reward is 2.0421, Estimated Regret is 0.9579
+DEBUG : Bandit with true Win rate 4.000: Pulled 19995 times Estimated Reward is 3.9937, Estimated Regret is 0.0063
+INFO : Cumulative Reward is 79862.38
+INFO : Cumulative Regret is 137.62
+WARNING : Suboptimal Pull Percentage is 0.0250%
+INFO : Conducting Thompson Sampling Experiment
+INFO : --- ThompsonSampling Reporting ---
+DEBUG : Bandit with true Win rate 1.000: Pulled 1 times Estimated Reward is 0.6477, Estimated Regret is 0.3523
+DEBUG : Bandit with true Win rate 2.000: Pulled 0 times Estimated Reward is 0.0000, Estimated Regret is 0.0000
+DEBUG : Bandit with true Win rate 3.000: Pulled 0 times Estimated Reward is 0.0000, Estimated Regret is 0.0000
+DEBUG : Bandit with true Win rate 4.000: Pulled 19999 times Estimated Reward is 4.0152, Estimated Regret is -0.0152
+INFO : Cumulative Reward is 80304.53
+INFO : Cumulative Regret is -304.53
+INFO : Comparing of Epsilon-Greedy and Thompson Sampling
+INFO : Comparing Epsilon Greedy vs Thompson Sampling algorithms.
